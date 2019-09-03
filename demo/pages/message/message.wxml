@@ -1,0 +1,14 @@
+<view class='card'>
+  <text class='card-title'>标题111</text>
+  <text class='card-data'>2019/4/24</text>
+  <image class='card-img' src="../../icons/grid-09.png" mode="aspectFill"></image>
+  <view class='card-desc'>越努力,越幸福</view>
+  <view class='card-read arrow'>查看详情</view>
+</view>
+<view class='card'>
+  <text class='card-title'>标题111</text>
+  <text class='card-data'>2019/4/24</text>
+  <image class='card-img' src="../../icons/grid-09.png" mode="aspectFill"></image>
+  <view class='card-desc'>越努力,越幸福</view>
+  <view class='card-read arrow'>查看详情</view>
+</view>

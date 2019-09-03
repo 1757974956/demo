@@ -1,0 +1,45 @@
+<!-- //wxs标签类似于script标签 -->
+<!-- //导出一个对象,直接在视图层调用 -->
+<wxs module="obj">
+
+  module.exports = {
+   getSum:function (x, y) {
+    return x+y;
+    }
+  }
+</wxs>
+
+<view>{{obj.getSum(1,2)}}</view>
+
+<view class='divider'></view>
+
+<view class='cell'>
+<navigator class='cell cell-item arrow'>
+<text>表单输入</text>
+</navigator>
+</view>
+<view class='cell-item'>
+  <button>按钮</button>
+  
+</view>
+<view class='cell-item'>
+<input type='text' placeholder='请输入' confirm-hold='go'></input>
+</view>
+
+
+
+<view class='cell-item'>
+<checkbox-group>
+<checkbox>1</checkbox>
+<checkbox checked='checked'>2</checkbox>
+</checkbox-group>
+</view>
+<view class='cell-item'>
+<switch checked bindchange='switchHandle' data-zy="参数">开启</switch>
+</view>
+<view class='divider'></view>
+<view class='father' bindtap='fatherHander'>
+    <view class='son 'bindtap='sonHander'>
+
+    </view>
+</view>

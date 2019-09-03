@@ -1,0 +1,21 @@
+/* pages/profile/profile.wxss */
+
+.cell{
+  background-color: #fff;
+  font-size: 16px;
+}
+.cell .cell-item{
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx 30rpx;
+}
+
+.father{
+  width: 200rpx;
+  height: 200rpx;
+  background-color:#ccc;
+}
+.father .son{
+  width: 100rpx;
+height: 100rpx;
+background-color: pink;
+}

@@ -1,0 +1,15 @@
+<view class='shop' wx:for="{{shopList}}" wx:key="id">
+  <image class='shop-img' src="{{item.images[0]}}"></image>
+  <view class='shop-info'>
+    <text class='shop-title ell' style="width:380rpx;">{{item.name}}</text>
+    <text class="shop-tel">{{item.phone}}</text>
+    <text class="shop-address">{{item.address}}</text>
+    <text class='shop-time'>{{item.businessHours}}</text>
+  </view>
+  <view class='shop-start'>
+    <view class="shop-start-after">☆☆☆☆☆</view>
+    <view class='shop-start-before' style='width{{item.score}}%;'>★★★★★</view>
+  </view>
+</view>
+<view class='loadmore loading'>正在加载中...</view>
+<view class='loadmore'>没有更多了</view>
